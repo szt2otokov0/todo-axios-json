@@ -14,7 +14,7 @@
             id = ids.length.toString()
         })
             .then(console.log(id))
-            .then(() => Axios.post("http://localhost:3000/todos",{id:id,task:name,deadline:date})
+            .then(() => Axios.post("http://localhost:3000/todos",{id:id,task:name,deadline:date,finished:false})
             .then(r => console.log(r.status)))
         
     }

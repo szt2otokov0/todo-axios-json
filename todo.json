@@ -3,7 +3,14 @@
     {
       "id": "0",
       "task": "ToDoApp formázás",
-      "deadline": "2024-03-15"
+      "deadline": "2024-03-15",
+      "finished": "false"
+    },
+    {
+      "id": "1",
+      "task": "new task w/ long deadline",
+      "deadline": "2024-04-24",
+      "finished": false
     }
   ]
 }
