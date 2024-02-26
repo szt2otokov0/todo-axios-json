@@ -19,6 +19,7 @@ onMounted(() => {
 
 const deleteTask = (id) => {
   axios.delete("http://localhost:3000/todos/" + id).then(() => {
+    id = id.toString()
     todos.value = todos.value.filter(t => t.id != t.id)
   })
 }
